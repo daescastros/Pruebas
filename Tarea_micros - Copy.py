@@ -25,13 +25,14 @@ def multiple_op(a):
         for i in range(0, len(Oarray)):
             print(Oarray[i])
         # return 0 if pass
-        return 0,Oarray
+        return 0, Oarray
     else:
         # return 1 if fail
         return 1, 0
 
+
 def verify_array_op(t):
-    #lenghtVar = len(t) # No se usa
+    # lenghtVar = len(t) # No se usa
     ArraySalida = [None] * len(t)
     for i in range(0, len(t)):
         # if multiple_op fails
